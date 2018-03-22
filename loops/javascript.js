@@ -1,4 +1,4 @@
-var myarray =["onestring",1,"chutiya","54656",6.7867,true,"laststring"]
+var myarray =["onestring",1,"abc","54656",6.7867,true,"laststring"]
 for(var i=0; i<myarray.length; i++)
 {
 	alert(myarray[i]);

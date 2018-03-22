@@ -3,3 +3,9 @@ git init // initialize an empty repository
 git add -all // add all files into staging area
 git status // to check the status of the repository
 git commit -am "my-first-commit"
+{may ask git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+}
+git remote add origin https://github.com/ballakkur/javascript.git
+git push origin master
+{will ask for user name and password}
