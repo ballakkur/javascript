@@ -1,5 +1,5 @@
-var myarray =["nigga1", "nigga2","nigga3","nigga4","nigga5"]
-var key = window.prompt("enter the nigga u wanna find");
+var myarray =["nig1", "nig2","nig3","nig4","nig5"]
+var key = window.prompt("enter the nig u wanna find");
 for(var i=0; i<myarray.length ; i++)
 {
 	if(myarray[i]==key)
@@ -10,12 +10,12 @@ for(var i=0; i<myarray.length ; i++)
 }
 //for in loop for objects. Advantage is that u dont need to know the element 
 var myobject ={
-	"name" :"nigga",
-	"age"	:"nigga1",
+	"name" :"nig",
+	"age"	:"nig1",
 	"height":66,
-	"description": "im a mofo nigga"
+	"description": "im a nig"
 }
 for(x in myobject)
 {
-	alert("dont be a nigga " +(myobject[x]))
+	alert("dont be a nig " +(myobject[x]))
 }
