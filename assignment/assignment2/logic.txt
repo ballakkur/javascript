@@ -1,0 +1,63 @@
+q1 a]checkLogin
+
+
+	checkLogin function is redefined using arrow function
+	in the alert statement single qoutes is replaced by `(back tick)
+
+
+
+
+    b] bubblesort function
+
+
+	bubble sort function is converted to a method inside an object called bubbleUp(it is now object oriented)
+
+	Used let keyword to define a variable instead of var
+
+	the method bubble_Sort() takes comma seperated values as argument and stores them into an array a using 
+	REST.
+	for loop cannot be replaced by for in or for of loop for following reasons
+			->if for of loop is used(say for(i of x) i here is an element of that array
+			hence it is not possible to access next element for comparison
+			
+			->if for in loop is used(say for(i in x) i here is an index but it is a string
+			 hence you cannot use x[i+1] for comparison
+			note: even if u convert i to number using x[Number(i) +1] the value of i will be
+			      updated permanently and hence you cannot compare
+	
+ 	it then uses calls bubble_Sort inside bubbleUp object using dot operator and passes csv as argument
+	
+
+q2  object toFindDetails have 3 methods inside it
+
+name of the method : find()
+
+description 	   : find method takes 2 parameter userEnteredSeasonNumber and userEnteredEpisodeNumber
+		     it loops through every episodes and performs following checks
+				1.checks to see if user entered season value is greater than last season 
+				2.checks to see if for loop has iterated to next season and there was no 
+				   match for episode number(that is userEnteredSeasonNumber doesnt have
+				   that episode)
+				3.checks to see if userEnteredSeasonNumber is equal to last season and 
+				   userEnteredEpisodeNumber is greater than last episode of last season
+				4.checks to see if user entered season number and episode number match
+				   and it displays details of that object
+
+name of the method :findEpisodeUsingId()
+
+description  	   : it takes array of id as argument
+		     iterates through that array and compares each element of the array with each id of
+		     episodes using for of loop
+		     a flag is initially set to false,if userentered id matches with database id it sets 
+		     the flag to true and displays object details
+		     An if statement checks the status of the flag to display appropriate message
+
+name of the method : findEpisodeUsingName(episodeName)
+
+description 	   : iterates through episodes using for of loop
+		     compares user entered episode name with the episode name in the database by converting 
+		     both to lowercase
+		     if they match, object details are displayed
+
+A while loop iterates infinitly until user enters a proper option and then calls the appropriate method
+

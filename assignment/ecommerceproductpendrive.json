@@ -1,0 +1,151 @@
+		{
+			"brand": [{
+						"name": "Sandisk",
+						"Number of pendrives of this brand": 238,
+						"available in capacity": ["2GB", "4GB", "8GB", "16GB", "32GB", "64GB", "128GB"],
+						"price range": ["under 1000", "1000-5000", "5000-10000", "10000-20000", "20000 and above"],
+						"seller":[  "Shop-The-World",
+								    "Jagzee Enterprises",
+									"M.P.Enterprises",
+									"Headrush India",
+									"ARUNA STATIONERY",
+					 				"G. G",
+					 				"Atlas Store-Blr",
+					 				"HARIOM ( SMT™ )",
+					 				"iBhejo",
+					 				"Dynamic.india"
+					 			],
+					 	"model":[{ 
+					 				"model name":"SanDisk Cruzer Blade SDCZ50-016G-135 16GB USB 2.0 Pen Drive",
+					 				"price":399,
+					 				"rating":"4 star",
+					 				"cash on delivery": true
+					 			},
+					 			{
+					 				"model name": "SanDisk Ultra Dual 64GB USB 3.0 OTG Pen Drive",
+					 				"price":1150,
+					 				"rating":"4 star",
+					 				"cash on delivery": false
+					 			},
+					 			{
+					 				"model name":"SanDisk Ultra CZ48 32GB USB 3.0 Pen Drive (Black)",
+					 				"price":757,
+					 				"rating":"3.5 star",
+					 				"cash on delivery": false
+					 			},
+					 			{
+					 				"model name":"SanDisk Ultra Dual 16GB USB 3.0 Pen Drive (Black)",
+					 				"price":777,
+					 				"rating":"3 star",
+					 				"cash on delivery": true
+					 			},
+					 			{
+					 				"model name":"SanDisk Ultra Dual 64GB USB 3.0 OTG Pen Drive (Gold)",
+					 				"price":1839,
+					 				"rating":"4.5 star",
+					 				"cash on delivery": true
+					 			}]
+
+
+				},
+				{
+						"name":"HP",
+						"Number of pendrives of this brand": 55,
+						"discound":true,
+						"available in capacity": ["2GB", "4GB", "8GB", "16GB", "32GB", "64GB", "128GB"],
+						"price range": ["under 1000", "1000-5000", "5000-10000", "10000-20000", "20000 and above"],
+						"seller":[  "Now Store, Yeshwanthpur",
+								    "JAppario Retail Private Ltd",
+									"Now Store, Barkatpura",
+									"Headrush India",
+									"Red Store",
+					 				"G. G",
+					 				"Cloudtail India",
+					 				"Now Store, Ghatkopar",
+					 				"iBhejo",
+					 				"GREATINDIAZONE"
+					 			],
+						"model":[{ 
+					 				"model name":"HP v236w 16GB USB 2.0 Pen Drive",
+					 				"price":499,
+					 				"rating":"3 star",
+					 				"cash on delivery": true
+					 			},
+					 			{
+					 				"model name": "HP v152w 32GB USB 2.0 Pen Drive",
+					 				"price":749,
+					 				"rating":"4 star",
+					 				"cash on delivery": false
+					 			},
+					 			{
+					 				"model name":"HP v215b 8GB Pen Drive",
+					 				"price":460,
+					 				"rating":"4 star",
+					 				"cash on delivery": true
+					 			},
+					 			{
+					 				"model name":"HP v150w 32GB USB 2.0 flash Drive",
+					 				"price":889,
+					 				"rating":"4.5 star",
+					 				"cash on delivery": false
+					 			},
+					 			{
+					 				"model name":"HP x710W 32GB USB 3.0 Pen Drive",
+					 				"price":1839,
+					 				"rating":"4.5 star",
+					 				"cash on delivery": true
+					 			}]
+
+
+				},
+				{
+						"name":"Sony",
+						"Number of pendrives of this brand": 64,
+						"discound":false,
+						"available in capacity": ["2GB", "4GB", "8GB", "16GB", "32GB", "64GB", "128GB"],
+						"price range": ["under 1000", "1000-5000", "5000-10000", "10000-20000", "20000 and above"],
+						"seller":[  "ARUNA STATIONERY",
+								    "Appario Retail Private Ltd",
+									"M.P.Enterprises",
+									"Cart2india - Online",
+									"Digital Xpert",
+					 				"Now Store, Pulbangash",
+					 				"Cloudtail India",
+					 				"modernretailonline",
+					 				"iBhejo",
+					 				"GREATINDIAZONE"
+					 			],
+						"model":[{ 
+					 				"model name":"Sony 16GB Microvault USB Flash Drive",
+					 				"price":479,
+					 				"rating":"4 star",
+					 				"cash on delivery": false
+					 			},
+					 			{
+					 				"model name": "Sony Microvault 16GB Pen Drive (White)",
+					 				"price":749,
+					 				"rating":"4 star",
+					 				"cash on delivery": false
+					 			},
+					 			{
+					 				"model name":"Sony Microvault 32GB USB Drive (Black)",
+					 				"price":700,
+					 				"rating":"3.5 star",
+					 				"cash on delivery": true
+					 			},
+					 			{
+					 				"model name":"Sony USM16X/B2 16GB USB 3.1 Gen 1 Pen Drive (Black)",
+					 				"price":1000,
+					 				"rating":"4.5 star",
+					 				"cash on delivery": false
+					 			},
+					 			{
+					 				"model name":"Sony Micro Vault Tiny 16GB USB Pen Drive (Pink)",
+					 				"price":565,
+					 				"rating":"4.5 star",
+					 				"cash on delivery": true
+					 			}]
+
+				}
+			]
+		}

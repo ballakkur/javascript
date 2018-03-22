@@ -1,0 +1,5 @@
+use cd to enter to the folder that u want to convert to git repository
+git init // initialize an empty repository
+git add -all // add all files into staging area
+git status // to check the status of the repository
+git commit -am "my-first-commit"

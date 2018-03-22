@@ -1,0 +1,45 @@
+name of the function : enterpokemon()
+description : This function prompts user to input name of a pokemon
+			   it then passes the name into another function called checkvalid()
+			   if checkvalid() returns true, it will return the name of the pokemon to calling function
+			   else it will prompt the user to enter a valid pokemon.It will continue to do so until user enters a valid pokemon
+
+
+name of the function : checkvalid()
+description : this function takes the aurgument passed by enterpokemon() function i.e name of the 				   pokemon.
+			  it loops through the json(pokemon database inside assignment.js) using for in loop
+			  it then compares name attribute in the object with the name passed as parameter, to see if they are equal or not
+			  this is done by converting both the string to upper case and comparing using === operator.
+			  note: if you compare both string without converting it to uppercase it may miss match due to case sensitivity e.g Diglett will not be same as diglett. hence I converted both to uppercase before comparing
+			  It returns true if the strings match else it will return false
+
+
+name of the function :infoOfPokemon()
+description : this function takes the name of a pokemon and displays its informantion
+			  it loops through the database and finds the information of the pokemon and displays it
+
+
+name of the function : nextEvolution()
+description : this function takes the name of the pokemon as input
+			  loops through database 
+			  compares name attribute inside next_evolution with the name taken as parameter
+			  if it matches then function will print the name attribute of that object
+			  eg:if u enter Ivysaur it will print Bulbasaur since Bulbasaur has Ivysaur in its next evolution.
+			  if function cannot find the name matching the parameter it means that the pokemon is in its base form and it is yet to evolve.
+
+
+name of the function : weaknessesOfPokemon()
+desciption :  this function takes a weakness as parameter 
+			  loops the database to check if any weekness array element matches weekness entered by user.
+			  If no it displays not pokemon has this weekness
+			  if matched it displays names of all the pokemon with that weekness
+
+
+main part : i.e exection begins here
+description : It runs inside an infinite while loop.
+				it prompts the user to enter a choice i.e either 1 or 2 or 3
+				if user enters a choice other than 1 2 or 3 it will pormpt the user to enter a valid choice and it will keep doing so until the user enters a valid choice
+				when user selects one of the three choices it will call the appropriate function and breaks after execution of the function.
+
+
+			  
